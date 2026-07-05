@@ -1,71 +1,94 @@
 # CrisisTrainer
-CrisisTrainer is an AI-powered crisis training and employee performance monitoring system developed to support employee preparedness during emergency and crisis situations.
 
-The project integrates a web interface, backend services, structured crisis datasets, and a MySQL database to simulate training scenarios and monitor performance.
+CrisisTrainer is an AI-powered hospital crisis training and employee performance monitoring system developed to support staff preparedness during emergency and crisis situations.
+
+The project integrates a web interface, FastAPI backend, structured JSON crisis knowledge records, RAG-based AI support, and a MySQL database to generate training scenarios, evaluate responses, and monitor performance.
 
 # Project Overview
-The purpose of this project is to provide employees with realistic crisis training scenarios while enabling supervisors to assign tasks, monitor progress, and evaluate performance.
+
+The purpose of this project is to provide hospital staff with realistic crisis training scenarios while enabling supervisors to assign tasks, monitor progress, and evaluate performance.
 
 The system combines:
 
-- Crisis training scenarios
-- Employee dashboards
-- Supervisor dashboards
-- Live monitoring
-- Database-based performance tracking
-- AI-supported structured training content
+* AI-generated crisis training scenarios
+* Employee dashboards
+* Supervisor dashboards
+* Role-based training tasks
+* Database-based performance tracking
+* AI-supported response evaluation
+* Structured crisis knowledge records
 
 ---
 
 # Features
 
 ## Employee Features
-- User login
-- Training participation
-- Crisis scenario interaction
-- Performance tracking
-- Employee dashboard
+
+* User login
+* Training participation
+* Crisis scenario interaction
+* Assessment question answering
+* Performance tracking
+* Employee dashboard
 
 ## Supervisor Features
-- Supervisor dashboard
-- Monitor employee activity
-- Assign training tasks
-- View employee performance
+
+* Supervisor dashboard
+* Create crisis training scenarios
+* Assign role-based training tasks
+* Monitor employee activity
+* View employee performance and feedback
 
 ## System Features
-- Structured crisis datasets
-- Multiple crisis categories
-- Database integration
-- Real-time monitoring interface
+
+* Structured crisis datasets
+* Multiple crisis categories
+* Database integration
+* Real-time monitoring interface
+* AI-supported scenario generation
+* Performance evaluation reports
 
 ---
 
 # Technologies Used
 
 ## Frontend
-- HTML5
-- CSS3
-- JavaScript
+
+* HTML5
+* CSS3
+* JavaScript
 
 ## Backend
-- Python
-- FastAPI
-- SQLAlchemy
+
+* Python
+* FastAPI
+* SQLAlchemy
 
 ## Database
-- MySQL
-- phpMyAdmin
+
+* MySQL
+* phpMyAdmin
 
 ## Dataset
-- JSON-based crisis scenario files
+
+* JSON-based crisis scenario files
+* Structured hospital crisis knowledge records
 
 ## AI Technologies
-- OpenAI GPT API
-- Structured crisis datasets
-- JSON scenario files
 
-## AI Integration
-The system integrates OpenAI GPT models to support crisis scenario generation, response evaluation, and intelligent interaction within training activities.
+* OpenAI GPT API
+* Retrieval-Augmented Generation (RAG)
+* FAISS Vector Retrieval
+* Structured crisis datasets
+* JSON scenario files
+
+---
+
+# AI Integration
+
+The system integrates OpenAI GPT models with structured crisis knowledge records to support crisis scenario generation, assessment question creation, response evaluation, and intelligent interaction within training activities.
+
+The AI pipeline uses RAG and FAISS vector retrieval to retrieve relevant crisis knowledge and improve the quality of generated scenarios and feedback.
 
 AI features may require an OpenAI API key during runtime configuration.
 
@@ -186,17 +209,17 @@ Start using the system.
 
 # Team Members
 
-- Shahad Turki Alhoory
-- Ghala Bander Alsuna Allah
-- Hala Abdulmohsen Al-Shammari
-- Jawaher Khalifah Al-Shammari
-- Ghadah Mansour Al-Shammari
+* Shahad Turki Alhoory
+* Ghala Bander Alsuna Allah
+* Hala Abdulmohsen Al-Shammari
+* Jawaher Khalifah Al-Shammari
+* Ghadah Mansour Al-Shammari
 
 ---
 
 # Academic Purpose
 
-This project was developed as an academic team project for crisis preparedness, employee training, and performance monitoring.
+This project was developed as an academic graduation project to support hospital crisis preparedness, staff training, and performance monitoring using artificial intelligence.
 
 ---
 
