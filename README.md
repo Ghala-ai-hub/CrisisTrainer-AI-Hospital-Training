@@ -20,6 +20,26 @@ The system combines:
 
 ---
 
+# Screenshots
+
+## Supervisor Dashboard
+![Supervisor Dashboard](screenshots/supervisor-dashboard.png)
+
+## Generate & Assign Scenario
+![Generate and Assign Scenario](screenshots/generate-assign-scenario.png)
+
+## Training Dashboard
+![Training Dashboard](screenshots/training-dashboard.png)
+
+## Training Questions
+![Training Questions](screenshots/training-questions.png)
+
+## AI Feedback Result
+![AI Feedback Result](screenshots/ai-feedback-result.png)
+
+## Live Training Monitor
+![Live Training Monitor](screenshots/live-training-monitor.png)
+
 # Features
 
 ## Employee Features
